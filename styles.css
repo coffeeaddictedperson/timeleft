@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: darkslategray;
+    color: azure;
+    font-size: 30px;
+}
+body {
+    display: flex;
+    align-content: center;
+}
+.timeleft {
+    margin: auto;
+    text-align: center;
+}
