@@ -10,7 +10,17 @@ body, html {
 body {
     display: flex;
     align-content: center;
+    background: darkslategray;
 }
+
+    @media screen and (min-width: 900px) {
+        body {
+            background-image: url("./src/plan.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+    }
 .timeleft {
     margin: auto;
     text-align: center;

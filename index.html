@@ -23,12 +23,13 @@
 <body>
     <div id="timeleft" class="timeleft"></div>
 
+
   <script>
       intervalFn(0);
 
       function intervalFn (interval) {
         setTimeout(() => {
-          const then = moment("10/02/2023 03:00", "DD/MM/YYYY HH:mm").utc();
+          const then = moment("11/02/2023 07:55", "DD/MM/YYYY HH:mm").utc();
           const date = moment().utc().to(then);
           document.querySelector('#timeleft').innerHTML = `I will come ${date.toString()}`;
           intervalFn(60000);
